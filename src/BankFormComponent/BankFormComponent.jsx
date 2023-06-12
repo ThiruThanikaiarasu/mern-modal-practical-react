@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './BankFormComponent.css'
 
 export class BankFormComponent extends Component {
 
@@ -66,6 +67,7 @@ export class BankFormComponent extends Component {
     return (
         <form onSubmit={this.formSubmitHandler } id='formdiv'>
         <div id='container'>
+            <h1>Employee Form </h1>
         <div>
            <label>First Name</label>
            <input 

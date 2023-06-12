@@ -1,11 +1,24 @@
-#container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#formdiv{
-    width:screen;
-    height: 100vh;
-    display: flex;
-}
+form {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+  
+  /* Styling for the div container */
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the labels */
+  form div label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  /* Styling for the input fields */
+  form div input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
